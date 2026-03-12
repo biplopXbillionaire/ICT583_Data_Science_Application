@@ -1,0 +1,72 @@
+---
+title: "Histogram Analysis Report"
+author: "Your Name"
+output: html_document
+---
+
+## Introduction
+
+This report demonstrates how to generate histograms using different datasets and vectors in R.
+
+## Histogram from Custom Vector
+
+```{r}
+v <- c(9,13,21,8,36,22,12,41,31,33,19)
+
+hist(v,
+     xlab = "Weight",
+     col = "green",
+     border = "blue")
+```
+
+This histogram shows the distribution of weights stored in a custom vector.
+
+---
+
+## Histogram using mtcars Dataset
+
+```{r}
+data(mtcars)
+
+hist(mtcars$mpg,
+     main = "Histogram of Miles Per Gallon",
+     xlab = "Miles Per Gallon (MPG)",
+     col = "yellow",
+     border = "black")
+```
+
+The histogram above shows the MPG distribution from the mtcars dataset.
+
+---
+
+## Histogram with Custom Axis Limits
+
+```{r}
+v <- c(9,13,21,8,36,22,12,41,31,33,19)
+
+hist(v,
+     xlab = "Weight",
+     col = "blue",
+     border = "black",
+     xlim = c(0,40),
+     ylim = c(0,5),
+     breaks = 5)
+```
+
+This example demonstrates setting custom axis limits and number of bins.
+
+---
+
+## Histogram using cars Dataset
+
+```{r}
+data(cars)
+
+hist(cars$speed,
+     main = "Histogram of Car Speed",
+     xlab = "Speed",
+     col = "yellow",
+     border = "black")
+```
+
+This histogram shows the distribution of car speeds.
