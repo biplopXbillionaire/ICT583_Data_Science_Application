@@ -1,0 +1,127 @@
+. Radiant App
+
+🔗 https://shiny.rstudio.com/gallery/radiant.html
+
+App: Radiant
+
+Application Task
+
+The Radiant app is used for business analytics and statistical analysis. It allows users to explore datasets, perform statistical tests, build models, and visualize data interactively through a web interface.
+
+Users can:
+
+Upload and explore datasets
+
+Perform descriptive statistics
+
+Run regression models
+
+Conduct clustering or factor analysis
+
+Visualize results using charts and tables
+
+Radiant is designed to help business decision-making using data analysis tools.
+
+Data Information Presented
+
+The app presents several types of information, such as:
+
+Summary statistics (mean, median, variance)
+
+Data tables and distributions
+
+Regression models and prediction results
+
+Correlation between variables
+
+Cluster or segmentation analysis
+
+Graphs and plots for visualization
+
+These results update interactively when inputs change, helping users explore data quickly.
+
+Insights Observed
+
+After exploring the results, several insights can be generated:
+
+Relationships between variables can be identified easily.
+
+Trends or patterns in business data become visible through charts.
+
+Predictive models can estimate future outcomes.
+
+Clustering helps identify customer segments or groups.
+
+Overall, Radiant demonstrates how R can be used for interactive data analysis and decision-making.
+
+2. Google Charts App
+
+🔗 https://shiny.rstudio.com/gallery/google-charts.html
+
+Application Task
+
+This Shiny app demonstrates how Google Charts visualization tools can be integrated with R to create interactive dashboards and charts.
+
+The main task of this application is to visualize data dynamically using different chart types.
+
+Examples include:
+
+Line charts
+
+Bar charts
+
+Pie charts
+
+Area charts
+
+Scatter plots
+
+Users can interact with the charts and change parameters to see different visualizations.
+
+Data Information Presented
+
+The app displays information such as:
+
+Category comparisons (bar charts)
+
+Trends over time (line charts)
+
+Percentage distributions (pie charts)
+
+Relationships between variables (scatter plots)
+
+These visualizations help users understand patterns and relationships in data.
+
+Insights Observed
+
+From the generated charts we can observe:
+
+Visual trends and patterns are easier to understand.
+
+Data comparisons between categories become clearer.
+
+Interactive visualization improves data exploration.
+
+Users can quickly detect anomalies or patterns.
+
+This demonstrates how R Shiny can create interactive dashboards for data visualization and reporting.
+
+3. Overall Discussion (Summary)
+
+Exploring the Shiny gallery shows that R can be used to build interactive data science applications.
+
+Examples include:
+
+Business analytics tools
+
+Data dashboards
+
+Statistical analysis platforms
+
+Interactive visualizations
+
+Using Shiny, analysts can transform R scripts into web applications that allow users to interact with data and models in real time.
+
+✅ Short conclusion for your assignment
+
+R Shiny applications like Radiant and Google Charts show how R can be used to build interactive data science tools. Radiant focuses on statistical analysis and business decision-making, while Google Charts demonstrates interactive data visualization. These apps help users explore data, identify patterns, and generate insights more effectively.
